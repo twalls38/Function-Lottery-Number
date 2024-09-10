@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Lottery Numbers</title>
+</head>
+<body>
+    <script>
+        
+        function lotteryNumber() {
+            let num = (1 + Math.floor(Math.random() * 49))
+            return (`${num}`)
+        }
+
+        let getSixNumbers = function (){
+            for (let lotteryNumber = 1; lotteryNumber <= 6; lotteryNumber++) {
+               console.log((1 + Math.floor(Math.random() * 49)))
+
+            }
+
+        }
+        console.log(lotteryNumber())
+        getSixNumbers();
+
+
+   </script>
+</body>
+</html>
